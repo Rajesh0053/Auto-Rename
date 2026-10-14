@@ -18,8 +18,8 @@ class Config(object):
     PORT = os.environ.get("PORT", "8980")
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "RexBots")     
-    DB_URL  = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "Takemichi")     
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Takemichi:<db_password>@cluster0.uwimsxh.mongodb.net/?appName=Cluster0")
  
     # other configs
     ADMIN_URL = "https://t.me/F_r_i_e_n_d_s_005"
