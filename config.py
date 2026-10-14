@@ -12,8 +12,8 @@ id_pattern = re.compile(r'^.\d+$')
 # --
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "26409451")
+    API_HASH  = os.environ.get("API_HASH", "fc9f5272c1b2eb4cfdecf088fda052bb")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8657699480:AAGv_U8vP6fqmSap-jPTMraTj7iimcgMunA")
     PORT = os.environ.get("PORT", "8980")
 
@@ -22,17 +22,17 @@ class Config(object):
     DB_URL  = os.environ.get("DB_URL", "")
  
     # other configs
-    ADMIN_URL = "https://t.me/adityaabhinav"
-    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002257657458")
+    ADMIN_URL = "https://t.me/F_r_i_e_n_d_s_005"
+    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1001834456916")
     DUMP = True
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://ibb.co/Cs0zsrCn")
     LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://ibb.co/RGx4RmDg")
-    OWNER_ID = int(os.environ.get("OWNER_ID", "6701907262"))
-    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002871570975"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "7925676919"))
+    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1003966093675"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003861560422"))
     FSUB_PIC = os.environ.get("FSUB_PIC", "")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "http://t.me/Rename_47_bot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
